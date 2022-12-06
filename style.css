@@ -1,0 +1,438 @@
+	* {
+		padding: 0;
+		margin: 0;
+		font-family: Century Gothic;
+		box-sizing: border-box;
+	}
+	.hero {
+		height: 100vh;
+		width: 100%;
+		background-image: url(jmd1.jpg); 
+		background-size: cover;
+		background-position: center;
+	}
+	nav {
+		background-color: black;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;		
+		padding-top: 30px;
+		margin-top: -10px;
+		padding-bottom: 1.5%;
+		margin-bottom: -23px;
+		padding-left: 10%;
+		padding-right: 6%;
+	}
+	.logo {
+		color: cornsilk;
+		font-size: 35px;
+		letter-spacing: 3px;
+	}
+	.newdiv {
+    	position: relative;
+    	top: 5.2%;
+	}
+	.prof {
+		border: 2px solid darkgrey;
+		border-radius: 3%;
+		left: 155px;
+		top: 22%;
+		padding-bottom: -10px;
+		position: absolute;
+		opacity: 100%;
+		cursor: pointer;
+		transition: .3s;
+	}
+	.prof:hover {
+		opacity: 100%;
+		border: 2px solid indianred;
+	}
+	.profile {
+		border-radius: 3%;
+		height: 125px;
+		width: 140px;
+		display: flex;
+		opacity: 90%;
+		cursor: pointer;
+		transition: .3s;
+	}
+	.profile:hover {
+		opacity: 100%;
+	}
+	.hover {
+		background-image: url(cloud.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		left: 320px;
+		top: 22%;	
+		width: 170px;
+		height: 120px;
+		display: fixed;
+		position: absolute;
+		padding-top: 2.7%;
+		padding-left: 13px;
+		opacity: 0%;
+		transition: .5s;
+	}
+	.newdiv:hover .hover {
+		opacity: 90%;
+	}
+	.newdiv .hover:hover {
+		opacity: 0%;
+		cursor: default;
+	}
+	.hover h2 {
+		color: black;
+		font-size: 13px;
+		font-family: Century Gothic;
+		text-align: center;
+	}
+
+	span {
+		color: indianred;
+	}
+	nav ul li {
+		list-style-type: none;
+		display: inline-block;
+		padding: 10px 25px;
+	}
+	nav ul li a {
+		font-size: 19px;
+		color: floralwhite;
+		text-decoration: none;
+		font-weight: bold;
+		text-transform: capitalize;
+	}
+	nav ul li a:hover {
+		color: indianred;
+		transition: .4s;
+	}
+	.g-img {
+		border: 3px outset black;
+		border-radius: 50%;
+		margin-top: -3px;
+		margin-left: -76px;
+		opacity: 90%;
+		cursor: pointer;
+		transition: transform .4s;
+	}
+	.g-img:hover {
+		transform: scale(1.2);
+	}
+	.content {
+		position: absolute;
+		top: 60%;
+		left: 9%;
+		transform: translateY(-50%);
+	}
+	.pic {
+		border-radius: 10px;
+		position: absolute;
+		width: 570px;
+		height: 469px;
+		left: 50%;
+		top: 26%;
+		display: grid;
+		grid-template-columns: auto auto;
+		gap:  6px;
+		padding: 2px;
+	}
+	.pic1 {
+		border-radius: 5px;
+		background-image: url(1.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		opacity: .2;
+		transition: .8s;
+		cursor: pointer;
+	}
+	.pic1:hover {
+		opacity: 1;
+	}
+	.pic2 {
+		border-radius: 5px;
+		filter: contrast(90%);
+		background-image: url(2.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		opacity: .2;
+		transition: .8s;
+		cursor: pointer;
+	}
+	.pic2:hover {
+		opacity: 1;
+	}
+	.pic3 {
+		border-radius: 5px;
+		filter: brightness(1.0);
+		background-image: url(3.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		opacity: .2;
+		transition: .8s;
+		cursor: pointer;
+	}
+	.pic3:hover {
+		opacity: 1;
+	}
+	.pic4 {
+		border-radius: 5px;
+		filter: grayscale(90%);
+		background-image: url(4.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		opacity: .2;
+		transition: .8s;
+		cursor: pointer;
+	}
+	.pic4:hover {
+		opacity: 1;
+	}
+	.account {
+		margin-top: 370px;
+		margin-left: 165px;
+	}
+	ul{
+    	margin: 0;
+        padding: 0;
+    }
+    .account li {
+        display: inline-block;
+        margin: 6px;
+        list-style: none;
+    }
+    .account li a {
+        color: white;
+        text-decoration: none;
+        font-size: 50px;
+        transition: all ease-in-out 250ms;
+    }
+    .fb:hover {
+       	color: skyblue;
+    }
+    .ig:hover {
+       	color: pink;
+    }
+    .yt:hover {
+       	color: red;
+    }
+    .tt:hover {
+       	color: black;
+    }
+	.cdlb {
+		border: 8px outset burlywood;
+		transition: transform .4s;
+	}
+	.cdlb:hover {
+		transform: scale(1.2);
+	}
+	h1 {
+		font-family: tahoma;
+		color: cornsilk;
+		margin: 20px 0px 20px;
+		font-size: 68px;
+	}
+	h3 {
+		font-family: tahoma;
+		color: cornsilk;
+		font-size: 32px;
+		margin-bottom: 50px;
+	}
+	h4 {
+		margin-bottom: -3px;
+		font-family: tahoma;
+		color: lightcyan;
+		letter-spacing: 5px;
+		font-size: 25px;
+	}
+	.contact {
+		color: white;
+		margin-top: 17px;
+		margin-left: 173px;
+		font-size: 14px;
+		font-family: century gothic;
+		font-weight: bold;
+	}
+	.about {
+		width: 100%;
+		padding: 90px 0px;
+		background-color: #101010;
+	}
+	.about img {
+		border:  5px solid lightgrey;
+		border-radius: 80px;
+		height: auto;
+		width: 440px;
+		opacity: 75%;
+		transition: .3s;
+	}
+	.about img:hover {
+		border: 5px solid indianred;
+		opacity: 85%;
+	}
+	.ab-txt {
+		width: 550px;
+	}
+	.main {
+		width: 1130px;
+		max-width: 95%;
+		margin: 0 auto;
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+	}
+	.ab-txt h2 {
+		color: lightgrey;
+		font-size: 40px;
+		font-family: tahoma;
+		text-transform: capitalize;	
+		margin-bottom: 20px;
+	}
+	.ab-txt h5 {
+		color: indianred;
+		font-family: Century Gothic;
+		font-size: 15.4px;
+		margin-bottom: 8px;
+		text-transform: capitalize;
+	}
+	.ab-txt p {
+		color: lightcyan;
+		font-size: 16px;
+		font-family: monospace;
+		text-align: justify;
+		letter-spacing: .3px;
+	}
+	button {
+		background-color: transparent;
+		font-family: Century Gothic;
+		font-weight: bold;
+		color: whitesmoke;
+		text-decoration: none;
+		border: 2px solid whitesmoke;
+		padding: 13px 30px;
+		margin-top: 30px;
+		border-radius: 30px;
+		transition: .4s;
+		cursor: pointer;
+	}
+	button:hover {
+		background-color: indianred;
+		border: 2px solid indianred;
+		color: black;
+	}
+	.ho-in-dr {
+		background-color: #191919;
+		width: 100%;
+		padding: 100px 0px;
+	}
+	.title h2 {
+		color: white;
+		font-size: 65px;
+		width: 1130px;
+		margin: 30px auto;
+		text-align: center;
+		padding-bottom: 65px;
+	}
+	.box {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		min-height: 400px;
+	}
+	.card {
+		height: 365px;
+		width: 330px;
+		padding: 20px 35px;
+		background-color: #292929;
+		border-radius: 20px;
+		margin: 15px;
+		position: relative;
+		overflow: hidden;
+		text-align: center;
+		transition: .3s;
+		cursor: pointer;
+	}
+	.card:hover {
+		background-color: #404040;
+	}
+	.card i {
+		font-size: 50px;
+		display: block;
+		text-align: center;
+		margin: 250x 0px;
+		color: indianred;
+	}
+	h5 {
+		color: white;
+		font-size: 23px;
+		margin-bottom: 23px;
+		margin-top: -12px;
+	}
+	.txt p {
+		color: white;
+		font-size: 11px;
+		font-family: century gothic;
+		font-weight: bold;
+		line-height: 22px;
+		text-align: justify;
+	}
+	footer {
+		background-color: #272727;
+		text-align: center;
+		text-transform: uppercase;
+		padding-top: 30px;
+	}
+	.footer-icon {
+		padding: 5px;
+		margin-top: -10px;
+	}
+	.icon {
+		background-color: #404040;
+		border-radius: 100%;
+		display: inline-block;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-left: 13px;
+		padding-right: 13px;
+		margin: 3px;
+		transition: .3s;
+		cursor: pointer;
+	}
+	.icon:hover {
+		background-color: indianred;
+	}
+	.icon .fa-facebook-messenger {
+		color: white;
+	}
+	.icon .fa-instagram {
+		color: white;
+	}
+	.icon .fa-tiktok {
+		color: white;
+	}
+	.icon .fa-envelope {
+		color: white;
+	}
+	.icon .fa-phone {
+		color: white;
+	}
+	.footer-menu p {
+		margin-top: -7px;
+		padding-bottom: 10px;
+		font-size: 11px;
+		color: white;
+	}
+	.footer-copyright {
+		padding: 30px;
+		background-color: #cd5c5c;
+		margin-top: 10px;
+	}
+	.footer-copyright p {
+		font-size: 15px;
+		font-family: calibri;
+	}
